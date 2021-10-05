@@ -7,7 +7,7 @@
 * Note that we deliberately have a lot of print statements for reasons.
 
 ## Q2 related stuff:
-* Forgets string slicing takes up O(n) time. Common sense could have hinted that if we asked for a better algorithm later on, chances are that Q2A wouldn't have been O(n) already.
+* Forgets string slicing takes up O(n) time. A kind of subtle hint wass that if we asked for a better algorithm later on, chances are that Q2A wouldn't have been O(n) already.
 
 ## Q3 related stuff:
 * To be added.
