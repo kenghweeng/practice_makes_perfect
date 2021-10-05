@@ -1,8 +1,19 @@
 ## Common mkistakes made by students:
-1. Somehow decides to cancel code away, despite us being able to mark for some points. It's super wasted.
-2. Forgets string slicing takes up O(n) time.
-3. Forgets that we also mark for workings in Q1.
-4. Tuple addition is often done without the extra brackets. Note the difference between:
+## General things:
+* Somehow decides to cancel code away, despite us being able to mark for some points. It's super wasted.
+* 
+## Q1 related stuff:
+* Forgets that we also mark for workings in Q1.
+* Note that we deliberately have a lot of print statements for reasons.
+
+## Q2 related stuff:
+* Forgets string slicing takes up O(n) time.
+
+## Q3 related stuff:
+* To be added.
+
+## Q4 related stuff:
+* Tuple addition was often done without the extra brackets. Note the difference between:
 ```
 x = (5,)
 tpl = ()
@@ -15,3 +26,4 @@ tpl = ()
 tpl += (x,)
 print(tpl) # ((5,),)
 ```
+* Forgets the type of inputs, note that time differencing cannot be done with strings: `get_checkin(record) - get_checkout(record)` can't be done since they were both **strings**.
