@@ -30,16 +30,16 @@ print(tpl) # ((5,),)
 * Forgets the type of inputs, note that time differencing cannot be done with strings: `get_checkin(record) - get_checkout(record)` can't be done since they were both **strings**.
 * Wrongfully initialise the "accumulator" inside the loop instead of outside. Compare these 2 examples:
 ```
-tpl = ()
-for i in range(5):
-  tpl += (i,)
+>>> tpl = ()
+    for i in range(5):
+      tpl += (i,)
   
-print(tpl)
+>>> print(tpl)
 
 v.s 
 
-for i in range(5):
-  tpl = () # note the placement of tpl inside vs outside of for loop.
-  tpl += (i,) 
+>>> for i in range(5):
+      tpl = ()  # note the placement of tpl inside vs outside of for loop.
+      tpl += (i,)
   
-print(tpl)
+>>> print(tpl)
