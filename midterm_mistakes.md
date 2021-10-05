@@ -20,7 +20,8 @@ tpl = ()
 tpl += x
 print(tpl) # (5,)
 
-v.s 
+v.s
+
 x = (5,)
 tpl = ()
 tpl += (x,)
