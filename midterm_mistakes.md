@@ -1,13 +1,13 @@
 ## Common mkistakes made by students:
 ## General things:
 * Somehow decides to cancel code away, despite us being able to mark for some points. It's super wasted.
-* 
+
 ## Q1 related stuff:
 * Forgets that we also mark for workings in Q1.
 * Note that we deliberately have a lot of print statements for reasons.
 
 ## Q2 related stuff:
-* Forgets string slicing takes up O(n) time.
+* Forgets string slicing takes up O(n) time. Common sense could have hinted that if we asked for a better algorithm later on, chances are that Q2A wouldn't have been O(n) already.
 
 ## Q3 related stuff:
 * To be added.
