@@ -9,3 +9,5 @@ Rough Teaching Notes:
 * Remind them they need to know about time and space complexities, but no need to know how to implement from scratch.
 
 5. How to use the actual Python `sort` function!
+* What is the `key` argument?
+* What is the `reverse` argument?
