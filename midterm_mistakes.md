@@ -1,4 +1,4 @@
-## Common mkistakes made by students:
+## Common mistakes made by students:
 ## General things:
 * Somehow decides to cancel code away, despite us being able to mark for some points. It's super wasted.
 
